@@ -13,25 +13,25 @@
             <p class="des-text">I'm a Web Developer and Designer. I am very passionate and dedicated to my work.
                 I have acquired the skills and knowledge necessary to make your project a success.
                 I enjoy every step of developing and designing process from discussion and collaboration
-                to concept and execution, but what i find the most is seeing the finished product do
-                everything for you that it was created to do. 
+                to concept and execution, but what I discovered to be the most enjoyable is witnessing the end 
+                result fulfill all of your needs. 
             </p>
             <div class="row text-center">
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12 mt-3">
                     <span style="color:#ff7f50;">Name<br></span>
                     <span>John Carlo G. Ciasico</span>
                 </div>
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12 mt-3">
                     <span style="color:#ff7f50;">Phone<br></span>
                     <span>(+63)9989077822</span>
                 </div>
             </div>
-            <div class="row text-center mt-3">
-                <div class="col-lg-6 col-md-12">
+            <div class="row text-center">
+                <div class="col-lg-6 col-md-12 mt-3">
                     <span style="color:#ff7f50;">Country<br></span>
                     <span>Philippines</span>
                 </div>
-                <div class="col-lg-6 col-md-12 ">
+                <div class="col-lg-6 col-md-12 mt-3">
                     <span style="color:#ff7f50;">Email<br></span>
                     <span>carlociasico01@gmail.com</span>
                 </div>
