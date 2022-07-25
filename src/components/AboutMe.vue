@@ -1,5 +1,5 @@
 <template>
-  <div class="container custom-about">
+  <div class="container custom-about-des">
     <div class="container-fluid text-center">
         <h1 class="text-1">About</h1>
         <h1 class="text-2">About Me</h1>
@@ -59,7 +59,7 @@ export default {
 
 <style scoped>
 
-.custom-about{
+.custom-about-des{
     padding: 1rem;
 }
 .text-1{
