@@ -1,4 +1,5 @@
 <template>
+<div>
   <div class="container custom-about-des">
     <div class="container-fluid text-center">
         <h1 class="text-1">About</h1>
@@ -48,6 +49,7 @@
             </div>
         </div>
     </div>
+  </div>
   </div>
 </template>
 
