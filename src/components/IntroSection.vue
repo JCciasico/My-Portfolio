@@ -1,6 +1,6 @@
 <template>
 <section>
-    <div class="container intro-custom">
+    <div class="container intro">
         <div class="custom-text">
             <h3>I'm a</h3>
             <h1 class="text">
@@ -31,7 +31,7 @@ export default {
 </script>
 
 <style scoped>
-.intro-custom{
+.intro{
     height: 500px;
     margin-bottom: 20px;
     display: flex;
