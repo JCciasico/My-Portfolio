@@ -8,6 +8,11 @@
             <h1 class="text text-1">
                 & DESIGNER <span class="text-dot">.</span>
             </h1>
+            <!-- <ul class="custom-intro">
+                <li class="text-1">I'm a</li>
+                <li class="text">WEB DEVELOPER</li>
+                <li class="text">& DESIGNER</li>
+            </ul> -->
             <button type="button" class="custom-button">Get in touch
                 <span>
                     <i class="fas fa-arrow-right"></i>
@@ -32,8 +37,9 @@ export default {
 }
 h3{
     font-size: 3.5rem;
-    color: #ff7f50;
+    color: #747d8c;
     font-weight: bold;
+    margin-bottom: -15px;
 }
 .text{
     font-size: 4.5rem;
@@ -54,7 +60,7 @@ h3{
     padding: 12px;
     border-radius: 25px;
     width: 170px;
-    margin-top: 15px;
+    margin-top: 25px;
     background-color: #ff7f50;
     color: white;
     border: none;
@@ -63,6 +69,11 @@ h3{
     background-color: white;
     color: #ff7f50;
 }
+.custom-intro{
+    list-style: none;
+    line-height: 65px;
+}
+
 
 @media(max-width:990px){
     .custom-text{
@@ -86,6 +97,7 @@ h3{
     }
     h3{
         font-size: 2rem;
+        margin-bottom: -5px;
     }
     .intro{
         justify-content: center;
