@@ -10,22 +10,22 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="#" class="nav-link active text" aria-current="page">HOME</a>
+                        <a href="#" class="nav-link text" aria-current="page">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link active text" aria-current="page">ABOUT ME</a>
+                        <a href="#" class="nav-link text" aria-current="page">ABOUT ME</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link active text" aria-current="page">SKILLS</a>
+                        <a href="#" class="nav-link text" aria-current="page">SKILLS</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link active text" aria-current="page">PORTFOLIO</a>
+                        <a href="#" class="nav-link text" aria-current="page">PORTFOLIO</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link active text" aria-current="page">SERVICES</a>
+                        <a href="#" class="nav-link text" aria-current="page">SERVICES</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link active text" aria-current="page">CONTACT</a>
+                        <a href="#" class="nav-link text" aria-current="page">CONTACT</a>
                     </li>
                 </ul>
             </div>
