@@ -2,17 +2,20 @@
   <div id="app">
     <div class="home-section">
       <NavBar/>
+      <IntroSection/>
     </div>
   </div>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
+import IntroSection from './components/IntroSection.vue'
 
 export default {
   name: 'App',
   components: {
     NavBar,
+    IntroSection
 }
 }
 </script>
@@ -24,10 +27,10 @@ export default {
   padding: 0;
 }
 .home-section{
-  background-image: url('./assets/bg.jpg');
+  background-image: url('./assets/Rectangle 1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 	background-repeat: no-repeat;
-  height: 100vh;
+  height: 100%;
 }
 </style>
