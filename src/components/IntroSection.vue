@@ -1,4 +1,5 @@
 <template>
+<section>
     <div class="container intro-custom">
         <div class="custom-text">
             <h3>I'm a</h3>
@@ -20,6 +21,7 @@
             </button>
         </div>
     </div>
+</section>
 </template>
 
 <script>
