@@ -57,4 +57,7 @@ export default {
     font-size: 1rem;
     margin: 0 5px;
 }
+.nav-link:hover{
+    color: #ff7f50;
+}
 </style>
