@@ -38,7 +38,7 @@ export default {
   background-image: url('./assets/Rectangle 1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 .about-section{
   background-color: #1b1b1b;
