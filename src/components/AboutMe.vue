@@ -11,7 +11,7 @@
         </div>
         <div class="col-lg-6 col-md-12 des-box">
             <h6 v-scroll-reveal.reset="{ delay: 350 }">My name is <span id="h6">John Carlo G. Ciasico</span></h6>
-            <p class="des-text" v-scroll-reveal.reset="{ delay: 400 }">I'm a Web Developer and Designer. I am very passionate and dedicated to my work.
+            <p class="des-text" v-scroll-reveal.reset="{ delay: 400 }">I'm a Web Developer. I am very passionate and dedicated to my work.
                 I have acquired the skills and knowledge necessary to make your project a success.
                 I enjoy every step of developing and designing process from discussion and collaboration
                 to concept and execution, but what I discovered to be the most enjoyable is witnessing the end 
