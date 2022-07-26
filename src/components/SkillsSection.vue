@@ -1,34 +1,62 @@
 <template>
 <section>
     <div class="container p-3">
-        <div class="container-fluid text-center">
+        <div class="container-fluid text-center p-3">
             <h1 class="text-1">Skills</h1>
             <h1 class="text-2">Skills</h1>
         </div>
-        <div class="row border">
-            <div class="col-lg-6 col-md-12 p-3">
-                    <div class="p-3 border text-center text-white box-1">
-                        <span class="skill-item">Vue js</span>
-                        <i class="fa-brands fa-vuejs icon"></i>
+        <div class="row skill-body">
+            <div class="col-lg-6 col-sm-12 border">
+                <div class="col p-3">
+                    <div class="d-flex justify-content-between">
+                        <span class="skill-item">Vue Js</span>
+                        <span class="skill-item">80%</span>
                     </div>
-                    <div class="p-3 border text-center text-white">
-                        <span>HTML</span>
-                        <i class="fa-brands fa-html5 icon"></i>
+                    <div class="range">
+                        <div class="vue"></div>
                     </div>
-                    <div class="p-3 border text-center text-white">
-                        <span>CSS</span>
-                        <i class="fa-brands fa-css3-alt icon"></i>
+                </div>
+                <div class="col p-3">
+                    <div class="d-flex justify-content-between">
+                        <span class="skill-item">HTML</span>
+                        <span class="skill-item">90%</span>
                     </div>
-                    <div class="p-3 border text-center text-white">
-                        <span>Javascript</span>
-                        <i class="fa-brands fa-js icon"></i>
+                    <div class="range">
+                        <div class="html"></div>
                     </div>
+                </div>
+                <div class="col p-3">
+                    <div class="d-flex justify-content-between">
+                        <span class="skill-item">CSS</span>
+                        <span class="skill-item">85%</span>
+                    </div>
+                    <div class="range">
+                        <div class="css"></div>
+                    </div>
+                </div>
+                 <div class="col p-3">
+                    <div class="d-flex justify-content-between">
+                        <span class="skill-item">Javascript</span>
+                        <span class="skill-item">65%</span>
+                    </div>
+                    <div class="range">
+                        <div class="js"></div>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-6 col-md-12 p-3">
-                    <div class="border">PHP</div>
-                    <div class="border">Bootstrap</div>
-                    <div class="border">Axios</div>
-                    <div class="border">MySQL</div>
+            <div class="col-lg-6 col-sm-12 border">
+                <div class="col p-3">
+                    <div class="d-flex justify-content-between">
+                        <span class="skill-item">Javascript</span>
+                        <span class="skill-item">65%</span>
+                    </div>
+                    <div class="range">
+                        <div class="js"></div>
+                    </div>
+                </div>
+                <div class="col">Axios</div>
+                <div class="col">PHP</div>
+                <div class="col">MySQL</div>
             </div>
         </div>
         <div class="container text-center footer-details">
@@ -63,19 +91,35 @@ h3{
     font-size: 2rem;
 }
 .footer-details{
-    padding: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
 }
 .box-1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    column-gap: 10px;
 }
 .skill-item{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
+    color: white;
 }
 .icon{
-    font-size: 3rem;
+    font-size: 5rem;
 }
+.skill-body{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.range{
+    width: 100%;
+    height: 15px;
+    background-color: #ddd;
+}
+.vue{width: 80%;background-color: #ff7f50;height: 100%;text-align: right;}
+.html{width: 90%;background-color: #ff7f50;height: 100%;text-align: right;}
+.css{width: 85%;background-color: #ff7f50;height: 100%;text-align: right;}
+.js{width: 65%;background-color: #ff7f50;height: 100%;text-align: right;}
+
+
+
 </style>
