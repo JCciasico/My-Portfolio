@@ -1,4 +1,5 @@
 <template>
+<section>
     <div class="container p-3">
         <div class="container-fluid text-center">
             <h1 class="text-1">Skills</h1>
@@ -17,6 +18,7 @@
             <h3>I Am Available For Freelance !</h3>
         </div>
     </div>
+</section>
 </template>
 
 <script>
