@@ -68,7 +68,7 @@ h3{
     -webkit-text-stroke: 0px #5a5a5a;
     /* border-right: 2px solid #383d52; */
     overflow:hidden;
-    animation: animate 5s linear infinite;
+    animation: animate 4s linear infinite;
 }
 @keyframes animate {
     0%,10%,100%{
