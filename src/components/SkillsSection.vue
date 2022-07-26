@@ -6,7 +6,7 @@
             <h1 class="text-2">Skills</h1>
         </div>
         <div class="row skill-body">
-            <div class="col-lg-6 col-sm-12 p-5">
+            <div class="col-lg-6 col-md-6 col-sm-12 box-1">
                 <div class="col p-3">
                     <div class="d-flex justify-content-between">
                         <span class="skill-item">Vue Js</span>
@@ -40,7 +40,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-12 p-5">
+            <div class="col-lg-6 col-md-6 col-sm-12 box-2">
                 <div class="col p-3">
                     <div class="d-flex justify-content-between">
                         <span class="skill-item">Bootstrap</span>
@@ -113,6 +113,10 @@ h3{
     padding-bottom: 2rem;
 }
 .box-1{
+    padding: 4rem;
+}
+.box-2{
+    padding: 4rem;
 }
 .skill-item{
     font-size: 1.4rem;
@@ -143,5 +147,23 @@ h3{
 .axios{width: 70%;background-color: #ff7f50;height: 100%;text-align: right;}
 .php{width: 75%;background-color: #ff7f50;height: 100%;text-align: right;}
 .sql{width: 75%;background-color: #ff7f50;height: 100%;text-align: right;}
+
+@media(max-width:767px){
+    .box-2{
+    padding: 0 3rem;
+    }
+    .box-1{
+    padding: 0 3rem;
+    }
+}
+
+@media(max-width:510px){
+    .box-2{
+    padding: 0 5rem;
+    }
+    .box-1{
+    padding: 0 5rem;
+    }
+}
 
 </style>
