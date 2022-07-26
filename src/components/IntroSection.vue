@@ -39,7 +39,7 @@ export default {
 
 <style scoped>
 .intro-box-1{
-    padding-top: 10rem;
+    padding-top: 13.5rem;
     padding-bottom: 5rem;
 }
 
