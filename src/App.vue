@@ -10,6 +10,9 @@
     <div class="about-section">
       <AboutMe/>
     </div>
+    <div class="skills-section">
+      <Skills/>
+    </div>
   </div>
 </template>
 
@@ -17,6 +20,7 @@
 import NavBar from './components/NavBar.vue'
 import IntroSection from './components/IntroSection.vue'
 import AboutMe from './components/AboutMe.vue'
+import Skills from './components/SkillsSection.vue'
 
 export default {
   name: 'App',
@@ -24,6 +28,7 @@ export default {
     NavBar,
     IntroSection,
     AboutMe,
+    Skills
 }
 }
 </script>
@@ -42,5 +47,8 @@ export default {
 }
 .about-section{
   background-color: #1b1b1b;
+}
+.skills-section{
+  background-color: #232323;
 }
 </style>
