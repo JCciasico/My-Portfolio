@@ -1,16 +1,16 @@
 <template>
 <section>
     <div class="container intro">
-        <div class="row custom-text">
-            <div class="col-12 text-center intro-box-1">
+        <div class="row text-center custom-text">
+            <div class="intro-box-1">
                 <div>
                     <h3 >I'm a</h3>
-                    <h1 class="text">
-                        WEB DEVELOPER
-                    </h1>
-                    <h1 class="text text-1">
-                        & DESIGNER <span class="text-dot">.</span>
-                    </h1>
+                    <span data-text="WEB_DEVELOPER" class="text">
+                        WEB_DEVELOPER
+                    </span><br>
+                    <!-- <h1 class="text-1">
+                        DESIGNER <span class="text-dot">.</span>
+                    </h1> -->
                     <!-- <ul class="custom-intro">
                         <li class="text-1">I'm a</li>
                         <li class="text">WEB DEVELOPER</li>
@@ -47,15 +47,44 @@ h3{
     font-size: 3.5rem;
     color: #747d8c;
     font-weight: bold;
-    margin-bottom: -15px;
 }
 .text{
-    font-size: 4.5rem;
-    color: white;
+    font-size: 6rem;
+    color: transparent;
     font-weight: bold;
+    -webkit-text-stroke: 2px #383d52;
+    text-transform: uppercase;
+    position: relative;
+}
+.text::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 10;
+    left: 0;
+    width: 0;
+    height: 100%;
+    text-align: center;
+    color: #ff7f50;
+    -webkit-text-stroke: 0px #383d52;
+    /* border-right: 2px solid #383d52; */
+    overflow:hidden;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate {
+    0%,10%,100%{
+        width: 0;
+    }
+    70%,90%{
+        width: 100%;
+    }
 }
 .text-1{
-    margin-top:-30px;
+    margin-top:-10px;
+    font-size: 4.5rem;
+    color: transparent;
+    font-weight: bold;
+    -webkit-text-stroke: 0.3vw #383d52;
+    text-transform: uppercase;
 }
 .text-dot{
     color:#ff7f50;
@@ -93,12 +122,20 @@ h3{
     }
     .text{
     font-size: 4rem;
-    color: white;
+    color: transparent;
     font-weight: bold;
-}
+    -webkit-text-stroke: 2px #383d52;
+    text-transform: uppercase;
+    position: relative;
+    }
 @media(max-width:600px){
     .text{
-        font-size: 2.5rem;
+    font-size: 2.5rem;
+    color: transparent;
+    font-weight: bold;
+    -webkit-text-stroke: 2px #383d52;
+    text-transform: uppercase;
+    position: relative;
     }
     .text-1{
     margin-top:-20px;
