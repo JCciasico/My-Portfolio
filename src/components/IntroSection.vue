@@ -52,7 +52,7 @@ h3{
     font-size: 6rem;
     color: transparent;
     font-weight: bold;
-    -webkit-text-stroke: 2px #383d52;
+    -webkit-text-stroke: 3px #5a5a5a;
     text-transform: uppercase;
     position: relative;
 }
@@ -65,7 +65,7 @@ h3{
     height: 100%;
     text-align: center;
     color: #ff7f50;
-    -webkit-text-stroke: 0px #383d52;
+    -webkit-text-stroke: 0px #5a5a5a;
     /* border-right: 2px solid #383d52; */
     overflow:hidden;
     animation: animate 5s linear infinite;

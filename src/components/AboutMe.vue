@@ -1,8 +1,8 @@
 <template>
 <section>
   <div class="container custom-about-des">
-    <div class="container-fluid text-center">
-        <h1 class="text-1">About</h1>
+    <div class="container-fluid text-center" v-scroll-reveal.reset="{ delay: 300 }">
+        <h1 class="text-1" >About</h1>
         <h1 class="text-2">About Me</h1>
     </div>
     <div class="row">
