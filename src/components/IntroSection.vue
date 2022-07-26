@@ -39,7 +39,7 @@ export default {
 
 <style scoped>
 .intro-box-1{
-    padding-top: 13.5rem;
+    padding-top: 11rem;
     padding-bottom: 5rem;
 }
 
@@ -49,7 +49,7 @@ h3{
     font-weight: bold;
 }
 .text{
-    font-size: 6rem;
+    font-size: 5rem;
     color: transparent;
     font-weight: bold;
     -webkit-text-stroke: 3px #5a5a5a;
@@ -148,6 +148,10 @@ h3{
         justify-content: center;
         align-items: center;
         height: 500px;
+    }
+    .intro-box-1{
+        padding-top: 10rem;
+        padding-bottom: 5rem;
     }
 }
 }
