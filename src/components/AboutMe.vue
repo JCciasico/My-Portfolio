@@ -6,10 +6,10 @@
         <h1 class="text-2">About Me</h1>
     </div>
     <div class="row">
-        <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center about-box">
+        <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center about-box" v-scroll-reveal.reset="{ delay: 300 }">
                <div class="box-1"><img src="../assets/carlo.png" class="img-fluid" alt=""></div>
         </div>
-        <div class="col-lg-6 col-md-12 des-box">
+        <div class="col-lg-6 col-md-12 des-box" v-scroll-reveal.reset="{ delay: 500 }">
             <h6>My name is <span id="h6">John Carlo G. Ciasico</span></h6>
             <p class="des-text">I'm a Web Developer and Designer. I am very passionate and dedicated to my work.
                 I have acquired the skills and knowledge necessary to make your project a success.
