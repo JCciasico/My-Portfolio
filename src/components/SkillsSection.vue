@@ -151,19 +151,19 @@ h3{
 
 @media(max-width:767px){
     .box-2{
-    padding: 0 3rem;
+    padding: 0 2rem;
     }
     .box-1{
-    padding: 0 3rem;
+    padding: 0 2rem;
     }
 }
 
 @media(max-width:510px){
     .box-2{
-    padding: 0 5rem;
+    padding: 0 2rem;
     }
     .box-1{
-    padding: 0 5rem;
+    padding: 0 2rem;
     }
 }
 
