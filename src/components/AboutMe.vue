@@ -79,7 +79,7 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 .custom-about-des{
-    padding: 1rem;
+    padding: 2rem;
 }
 .text-1{
     font-size: 6.5rem;
