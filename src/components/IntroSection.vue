@@ -38,6 +38,7 @@ export default {
 </script>
 
 <style scoped>
+
 .intro-box-1{
     padding-top: 11rem;
     padding-bottom: 5rem;

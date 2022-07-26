@@ -6,47 +6,46 @@
                 <h1 class="text-2">About Me</h1>
             </div>
             <div class="row" id="about">
-                <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center about-box"
-                    v-scroll-reveal.reset="{ delay: 225 }">
+                <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center about-box" data-aos="fade-right">
                     <div class="box-1"><img src="../assets/carlo.png" class="img-fluid" alt=""></div>
                 </div>
-                <div class="col-lg-6 col-md-12 des-box">
-                    <h6 v-scroll-reveal.reset="{ delay: 250 }">My name is <span id="h6">John Carlo G. Ciasico</span>
+                <div class="col-lg-6 col-md-12 des-box" data-aos="fade-left">
+                    <h6>My name is <span id="h6">John Carlo G. Ciasico</span>
                     </h6>
-                    <p class="des-text" v-scroll-reveal.reset="{ delay: 400 }">I'm a Web Developer. I am very passionate
+                    <p class="des-text">I'm a Web Developer. I am very passionate
                         and dedicated to my work.
                         I have acquired the skills and knowledge necessary to make your project a success.
                         I enjoy every step of developing and designing process from discussion and collaboration
                         to concept and execution, but what I discovered to be the most enjoyable is witnessing the end
                         result fulfill all of your needs.
                     </p>
-                    <div class="row text-center" v-scroll-reveal.reset="{ delay: 275 }">
+                    <div class="row text-center">
                         <div class="col-lg-6 col-md-12 mt-3">
                             <span style="color:#ff7f50;">Name<br></span>
                             <span>John Carlo G. Ciasico</span>
                         </div>
-                        <div class="col-lg-6 col-md-12 mt-3" v-scroll-reveal.reset="{ delay: 300 }">
+                        <div class="col-lg-6 col-md-12 mt-3">
                             <span style="color:#ff7f50;">Phone<br></span>
                             <span>(+63)9989077822</span>
                         </div>
                     </div>
-                    <div class="row text-center" v-scroll-reveal.reset="{ delay: 325 }">
+                    <div class="row text-center">
                         <div class="col-lg-6 col-md-12 mt-3">
                             <span style="color:#ff7f50;">Country<br></span>
                             <span>Philippines</span>
                         </div>
-                        <div class="col-lg-6 col-md-12 mt-3" v-scroll-reveal.reset="{ delay: 350 }">
+                        <div class="col-lg-6 col-md-12 mt-3">
                             <span style="color:#ff7f50;">Email<br></span>
                             <span>carlociasico01@gmail.com</span>
                         </div>
                     </div>
-                    <div class="row text-center mt-5" v-scroll-reveal.reset="{ delay: 375 }">
+                    <div class="row text-center mt-5">
                         <span style="color:#ff7f50;">Education</span>
                         <span style="font-size:1.1rem">BS in Computer Science</span>
                         <span style="font-size:1.1rem">Emilio Aguinaldo College - Cavite</span>
                     </div>
     
-                    <div class="icon-box" v-scroll-reveal.reset="{ delay: 400 }">
+                    <div class="icon-box">
                         <ul class="wrapper">
                             <li class="icon facebook">
                                 <span class="tooltip">Facebook</span>

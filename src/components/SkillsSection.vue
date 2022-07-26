@@ -6,8 +6,8 @@
             <h1 class="text-2">Skills</h1>
         </div>
         <div class="row skill-body" id="skills">
-            <div class="col-lg-6 col-md-6 col-sm-12 box-1">
-                <div class="col p-3" v-scroll-reveal.reset="{ delay: 200 }">
+            <div class="col-lg-6 col-md-6 col-sm-12 box-1" data-aos="fade-right">
+                <div class="col p-3">
                     <div class="d-flex justify-content-between">
                         <span class="skill-item">Vue Js</span>
                     </div>
@@ -15,7 +15,7 @@
                         <div class="vue"></div>
                     </div>
                 </div>
-                <div class="col p-3" v-scroll-reveal.reset="{ delay: 225 }">
+                <div class="col p-3">
                     <div class="d-flex justify-content-between">
                         <span class="skill-item">HTML</span>
                     </div>
@@ -23,7 +23,7 @@
                         <div class="html"></div>
                     </div>
                 </div>
-                <div class="col p-3" v-scroll-reveal.reset="{ delay: 250 }">
+                <div class="col p-3">
                     <div class="d-flex justify-content-between">
                         <span class="skill-item">CSS</span>
                     </div>
@@ -31,7 +31,7 @@
                         <div class="css"></div>
                     </div>
                 </div>
-                 <div class="col p-3" v-scroll-reveal.reset="{ delay: 275 }">
+                 <div class="col p-3">
                     <div class="d-flex justify-content-between">
                         <span class="skill-item">Javascript</span>
                     </div>
@@ -40,8 +40,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 box-2">
-                <div class="col p-3" v-scroll-reveal.reset="{ delay: 300 }">
+            <div class="col-lg-6 col-md-6 col-sm-12 box-2" data-aos="fade-left">
+                <div class="col p-3">
                     <div class="d-flex justify-content-between">
                         <span class="skill-item">Bootstrap</span>
                     </div>
@@ -49,7 +49,7 @@
                         <div class="boot"></div>
                     </div>
                 </div>
-                <div class="col p-3" v-scroll-reveal.reset="{ delay: 325 }">
+                <div class="col p-3">
                     <div class="d-flex justify-content-between">
                         <span class="skill-item">Axios</span>
                     </div>
@@ -57,7 +57,7 @@
                         <div class="axios"></div>
                     </div>
                 </div>
-                <div class="col p-3" v-scroll-reveal.reset="{ delay: 350 }">
+                <div class="col p-3">
                     <div class="d-flex justify-content-between">
                         <span class="skill-item">PHP</span>
                     </div>
@@ -65,7 +65,7 @@
                         <div class="php"></div>
                     </div>
                 </div>
-                <div class="col p-3" v-scroll-reveal.reset="{ delay: 375 }">
+                <div class="col p-3">
                     <div class="d-flex justify-content-between">
                         <span class="skill-item">MySQL</span>
                     </div>

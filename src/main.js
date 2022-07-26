@@ -3,7 +3,8 @@ import App from './App.vue'
 import vuetify from './plugins/vuetify'
 import{BootstrapVue, IconsPlugin} from 'bootstrap-vue'
 import VueScrollReveal from 'vue-scroll-reveal';
-
+import AOS from "aos";
+import 'aos/dist/aos.css'
 
 Vue.config.productionTip = false
 
@@ -29,6 +30,9 @@ import '@fortawesome/fontawesome-free/js/all.js'
 import router from './router'
 
 new Vue({
+  created(){
+    AOS.init();
+  },
   vuetify,
   router,
   render: h => h(App)
