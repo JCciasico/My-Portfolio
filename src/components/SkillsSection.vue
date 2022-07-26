@@ -6,11 +6,10 @@
             <h1 class="text-2">Skills</h1>
         </div>
         <div class="row skill-body">
-            <div class="col-lg-6 col-sm-12 border">
+            <div class="col-lg-6 col-sm-12 p-5">
                 <div class="col p-3">
                     <div class="d-flex justify-content-between">
                         <span class="skill-item">Vue Js</span>
-                        <span class="skill-item">80%</span>
                     </div>
                     <div class="range">
                         <div class="vue"></div>
@@ -19,7 +18,6 @@
                 <div class="col p-3">
                     <div class="d-flex justify-content-between">
                         <span class="skill-item">HTML</span>
-                        <span class="skill-item">90%</span>
                     </div>
                     <div class="range">
                         <div class="html"></div>
@@ -28,7 +26,6 @@
                 <div class="col p-3">
                     <div class="d-flex justify-content-between">
                         <span class="skill-item">CSS</span>
-                        <span class="skill-item">85%</span>
                     </div>
                     <div class="range">
                         <div class="css"></div>
@@ -37,26 +34,45 @@
                  <div class="col p-3">
                     <div class="d-flex justify-content-between">
                         <span class="skill-item">Javascript</span>
-                        <span class="skill-item">65%</span>
                     </div>
                     <div class="range">
                         <div class="js"></div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-12 border">
+            <div class="col-lg-6 col-sm-12 p-5">
                 <div class="col p-3">
                     <div class="d-flex justify-content-between">
-                        <span class="skill-item">Javascript</span>
-                        <span class="skill-item">65%</span>
+                        <span class="skill-item">Bootstrap</span>
                     </div>
                     <div class="range">
-                        <div class="js"></div>
+                        <div class="boot"></div>
                     </div>
                 </div>
-                <div class="col">Axios</div>
-                <div class="col">PHP</div>
-                <div class="col">MySQL</div>
+                <div class="col p-3">
+                    <div class="d-flex justify-content-between">
+                        <span class="skill-item">Axios</span>
+                    </div>
+                    <div class="range">
+                        <div class="axios"></div>
+                    </div>
+                </div>
+                <div class="col p-3">
+                    <div class="d-flex justify-content-between">
+                        <span class="skill-item">PHP</span>
+                    </div>
+                    <div class="range">
+                        <div class="php"></div>
+                    </div>
+                </div>
+                <div class="col p-3">
+                    <div class="d-flex justify-content-between">
+                        <span class="skill-item">MySQL</span>
+                    </div>
+                    <div class="range">
+                        <div class="sql"></div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="container text-center footer-details">
@@ -73,6 +89,8 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Roboto:wght@500&display=swap');
+
 .text-1{
     font-size: 6.5rem;
     font-weight: bolder; 
@@ -97,9 +115,11 @@ h3{
 .box-1{
 }
 .skill-item{
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     color: white;
+    margin-bottom: 15px;
 }
 .icon{
     font-size: 5rem;
@@ -113,13 +133,15 @@ h3{
 .range{
     width: 100%;
     height: 15px;
-    background-color: #ddd;
+    background-color: #1b1b1b;
 }
 .vue{width: 80%;background-color: #ff7f50;height: 100%;text-align: right;}
 .html{width: 90%;background-color: #ff7f50;height: 100%;text-align: right;}
 .css{width: 85%;background-color: #ff7f50;height: 100%;text-align: right;}
 .js{width: 65%;background-color: #ff7f50;height: 100%;text-align: right;}
-
-
+.boot{width: 80%;background-color: #ff7f50;height: 100%;text-align: right;}
+.axios{width: 70%;background-color: #ff7f50;height: 100%;text-align: right;}
+.php{width: 75%;background-color: #ff7f50;height: 100%;text-align: right;}
+.sql{width: 75%;background-color: #ff7f50;height: 100%;text-align: right;}
 
 </style>
