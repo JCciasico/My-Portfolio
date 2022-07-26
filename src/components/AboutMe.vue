@@ -9,9 +9,9 @@
         <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center about-box" v-scroll-reveal.reset="{ delay: 300 }">
                <div class="box-1"><img src="../assets/carlo.png" class="img-fluid" alt=""></div>
         </div>
-        <div class="col-lg-6 col-md-12 des-box" v-scroll-reveal.reset="{ delay: 400 }">
-            <h6>My name is <span id="h6">John Carlo G. Ciasico</span></h6>
-            <p class="des-text">I'm a Web Developer and Designer. I am very passionate and dedicated to my work.
+        <div class="col-lg-6 col-md-12 des-box">
+            <h6 v-scroll-reveal.reset="{ delay: 350 }">My name is <span id="h6">John Carlo G. Ciasico</span></h6>
+            <p class="des-text" v-scroll-reveal.reset="{ delay: 400 }">I'm a Web Developer and Designer. I am very passionate and dedicated to my work.
                 I have acquired the skills and knowledge necessary to make your project a success.
                 I enjoy every step of developing and designing process from discussion and collaboration
                 to concept and execution, but what I discovered to be the most enjoyable is witnessing the end 
