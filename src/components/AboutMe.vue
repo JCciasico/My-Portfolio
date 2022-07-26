@@ -5,7 +5,7 @@
         <h1 class="text-1" >About</h1>
         <h1 class="text-2">About Me</h1>
     </div>
-    <div class="row">
+    <div class="row" id="about">
         <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center about-box" v-scroll-reveal.reset="{ delay: 225 }">
                <div class="box-1"><img src="../assets/carlo.png" class="img-fluid" alt=""></div>
         </div>
@@ -43,9 +43,9 @@
                 <span style="font-size:1.1rem">Emilio Aguinaldo College - Cavite</span>
             </div>
             <div class="icon-box" v-scroll-reveal.reset="{ delay: 400 }">
-                <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
-                <a href="#" class="icon"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/johncarlociasico"  target="_blank" class="icon"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://github.com/JCciasico"  target="_blank" class="icon"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/john-carlo-ciasico-86a7b0238/" target="_blank" class="icon"><i class="fa-brands fa-linkedin"></i></a>
             </div>
         </div>
     </div>

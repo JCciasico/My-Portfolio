@@ -10,10 +10,10 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="#" class="nav-link text" aria-current="page">HOME</a>
+                        <a href="#home" class="nav-link text" aria-current="page">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link text" aria-current="page">ABOUT ME</a>
+                        <a href="#about" class="nav-link text" aria-current="page">ABOUT ME</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link text" aria-current="page">SKILLS</a>
