@@ -9,7 +9,7 @@
         <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center about-box" v-scroll-reveal.reset="{ delay: 300 }">
                <div class="box-1"><img src="../assets/carlo.png" class="img-fluid" alt=""></div>
         </div>
-        <div class="col-lg-6 col-md-12 des-box" v-scroll-reveal.reset="{ delay: 500 }">
+        <div class="col-lg-6 col-md-12 des-box" v-scroll-reveal.reset="{ delay: 400 }">
             <h6>My name is <span id="h6">John Carlo G. Ciasico</span></h6>
             <p class="des-text">I'm a Web Developer and Designer. I am very passionate and dedicated to my work.
                 I have acquired the skills and knowledge necessary to make your project a success.
@@ -17,32 +17,32 @@
                 to concept and execution, but what I discovered to be the most enjoyable is witnessing the end 
                 result fulfill all of your needs. 
             </p>
-            <div class="row text-center">
+            <div class="row text-center" v-scroll-reveal.reset="{ delay: 425 }">
                 <div class="col-lg-6 col-md-12 mt-3">
                     <span style="color:#ff7f50;">Name<br></span>
                     <span>John Carlo G. Ciasico</span>
                 </div>
-                <div class="col-lg-6 col-md-12 mt-3">
+                <div class="col-lg-6 col-md-12 mt-3" v-scroll-reveal.reset="{ delay: 450 }">
                     <span style="color:#ff7f50;">Phone<br></span>
                     <span>(+63)9989077822</span>
                 </div>
             </div>
-            <div class="row text-center">
+            <div class="row text-center" v-scroll-reveal.reset="{ delay: 475 }">
                 <div class="col-lg-6 col-md-12 mt-3">
                     <span style="color:#ff7f50;">Country<br></span>
                     <span>Philippines</span>
                 </div>
-                <div class="col-lg-6 col-md-12 mt-3">
+                <div class="col-lg-6 col-md-12 mt-3" v-scroll-reveal.reset="{ delay: 500 }">
                     <span style="color:#ff7f50;">Email<br></span>
                     <span>carlociasico01@gmail.com</span>
                 </div>
             </div>
-            <div class="row text-center mt-5">
+            <div class="row text-center mt-5" v-scroll-reveal.reset="{ delay: 550 }">
                 <span style="color:#ff7f50;">Education</span>
                 <span style="font-size:1.1rem">BS in Computer Science</span>
                 <span style="font-size:1.1rem">Emilio Aguinaldo College - Cavite</span>
             </div>
-            <div class="icon-box">
+            <div class="icon-box" v-scroll-reveal.reset="{ delay: 600 }">
                 <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
                 <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
                 <a href="#" class="icon"><i class="fa-brands fa-linkedin"></i></a>

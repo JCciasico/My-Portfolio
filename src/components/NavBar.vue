@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container custom-list" >
             <a class="navbar-brand" href="#"></a>
-            <img src="../assets/jcc-logo.png" alt="logo image" style="width: 9em; height: 4.5em; justify-content: start;" v-scroll-reveal.reset="{ delay: 100 }">
+            <img src="../assets/jcc-logo.png" alt="logo image" style="width: 9em; height: 4.5em; justify-content: start;" >
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span><i class="fas fa-bars" style="color:#fff; font-size:28px;"></i></span>
@@ -10,22 +10,22 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="#" class="nav-link text" v-scroll-reveal.reset="{ delay: 150 }" aria-current="page">HOME</a>
+                        <a href="#" class="nav-link text" aria-current="page">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link text" v-scroll-reveal.reset="{ delay: 200 }" aria-current="page">ABOUT ME</a>
+                        <a href="#" class="nav-link text" aria-current="page">ABOUT ME</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link text" v-scroll-reveal.reset="{ delay: 250 }" aria-current="page">SKILLS</a>
+                        <a href="#" class="nav-link text" aria-current="page">SKILLS</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link text" v-scroll-reveal.reset="{ delay: 300 }" aria-current="page">PORTFOLIO</a>
+                        <a href="#" class="nav-link text" aria-current="page">PORTFOLIO</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link text" v-scroll-reveal.reset="{ delay: 350 }" aria-current="page">SERVICES</a>
+                        <a href="#" class="nav-link text" aria-current="page">SERVICES</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link text" v-scroll-reveal.reset="{ delay: 400 }" aria-current="page">CONTACT</a>
+                        <a href="#" class="nav-link text" aria-current="page">CONTACT</a>
                     </li>
                 </ul>
             </div>

@@ -2,9 +2,9 @@
 <section>
     <div class="container intro">
         <div class="row custom-text">
-            <div class="col-12 text-center intro-box-1" v-scroll-reveal.reset="{ delay: 500 }">
+            <div class="col-12 text-center intro-box-1">
                 <div>
-                    <h3>I'm a</h3>
+                    <h3 >I'm a</h3>
                     <h1 class="text">
                         WEB DEVELOPER
                     </h1>
