@@ -16,7 +16,7 @@
                         <a href="#about" class="nav-link text" aria-current="page">ABOUT ME</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link text" aria-current="page">SKILLS</a>
+                        <a href="#skills" class="nav-link text" aria-current="page">SKILLS</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link text" aria-current="page">PORTFOLIO</a>
