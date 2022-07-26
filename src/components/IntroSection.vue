@@ -1,24 +1,31 @@
 <template>
 <section>
     <div class="container intro">
-        <div class="custom-text">
-            <h3>I'm a</h3>
-            <h1 class="text">
-                WEB DEVELOPER
-            </h1>
-            <h1 class="text text-1">
-                & DESIGNER <span class="text-dot">.</span>
-            </h1>
-            <!-- <ul class="custom-intro">
-                <li class="text-1">I'm a</li>
-                <li class="text">WEB DEVELOPER</li>
-                <li class="text">& DESIGNER</li>
-            </ul> -->
-            <button type="button" class="custom-button">Get in touch
-                <span>
-                    <i class="fas fa-arrow-right"></i>
-                </span>
-            </button>
+        <div class="row custom-text">
+            <div class="col-12 text-center intro-box-1">
+                <div>
+                    <h3>I'm a</h3>
+                    <h1 class="text">
+                        WEB DEVELOPER
+                    </h1>
+                    <h1 class="text text-1">
+                        & DESIGNER <span class="text-dot">.</span>
+                    </h1>
+                    <!-- <ul class="custom-intro">
+                        <li class="text-1">I'm a</li>
+                        <li class="text">WEB DEVELOPER</li>
+                        <li class="text">& DESIGNER</li>
+                    </ul> -->
+                    <button type="button" class="custom-button">Get in touch
+                        <span>
+                            <i class="fas fa-arrow-right"></i>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <!-- <div class="col-lg-6 col-md-12 text-center intro-box-2">
+                <img src="../assets/Designer _Flatline (2).png" alt="">
+            </div> -->
         </div>
     </div>
 </section>
@@ -31,12 +38,11 @@ export default {
 </script>
 
 <style scoped>
-.intro{
-    height: 500px;
-    margin-bottom: 20px;
-    display: flex;
-    align-items: end;
+.intro-box-1{
+    padding-top: 10rem;
+    padding-bottom: 5rem;
 }
+
 h3{
     font-size: 3.5rem;
     color: #747d8c;

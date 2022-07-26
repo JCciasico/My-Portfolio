@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container custom-list">
             <a class="navbar-brand" href="#"></a>
-            <img src="../assets/luxion-logo.png" alt="logo image" style="width: 13em; height: 6em; justify-content: start;">
+            <img src="../assets/jcc-logo.png" alt="logo image" style="width: 9em; height: 4.5em; justify-content: start;">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span><i class="fas fa-bars" style="color:#fff; font-size:28px;"></i></span>
