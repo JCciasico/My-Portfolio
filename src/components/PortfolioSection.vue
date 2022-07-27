@@ -48,7 +48,7 @@
                             <img src="../assets/Data storage_Outline.svg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-md-block" style="margin-bottom:10px;">
                                 <h3>Inventory System</h3>
-                                <p>Inventories can be managed, but people must be led. "Ross Perot". An Inventory System created using PHP.</p>
+                                <p>An Inventory System created using PHP.</p>
                                 <a href="#" id="link">PROJECT LINK</a>
                             </div>
                         </div>
