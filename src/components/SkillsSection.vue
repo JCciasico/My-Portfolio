@@ -5,8 +5,8 @@
             <h1 class="text-1">Skills</h1>
             <h1 class="text-2">Skills</h1>
         </div>
-        <div class="row skill-body" id="skills">
-            <div class="col-lg-6 col-md-6 col-sm-12 box-1" data-aos="zoom-in">
+        <div class="row skill-body" id="skills" data-aos="zoom-in">
+            <div class="col-lg-6 col-md-6 col-sm-12 box-1">
                 <div class="col p-3">
                     <div class="d-flex justify-content-between">
                         <span class="skill-item">Vue Js</span>
@@ -40,7 +40,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 box-2" data-aos="zoom-in">
+            <div class="col-lg-6 col-md-6 col-sm-12 box-2">
                 <div class="col p-3">
                     <div class="d-flex justify-content-between">
                         <span class="skill-item">Bootstrap</span>

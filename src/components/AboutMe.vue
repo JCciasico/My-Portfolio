@@ -6,7 +6,7 @@
                 <h1 class="text-2">About Me</h1>
             </div>
             <div class="row" id="about">
-                <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center about-box" data-aos="flip-left">
+                <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-start about-box" data-aos="flip-left">
                     <div class="box-1"><img src="../assets/carlo.png" class="img-fluid" alt=""></div>
                 </div>
                 <div class="col-lg-6 col-md-12 des-box" data-aos="zoom-in">

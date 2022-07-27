@@ -5,7 +5,7 @@
                 <h1 class="text-1">Portfolio</h1>
                 <h1 class="text-2">Portfolio</h1>
             </div>
-            <div class="carousel-body">
+            <div class="carousel-body" data-aos="fade-down">
                 <div id="carouselExampleCaptions" class="carousel slide portfolio-body" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -21,42 +21,42 @@
                     </div>
                     <div class="carousel-inner" style="border-radius: 20px;">
                         <div class="carousel-item active" data-bs-interval="3000">
-                            <img src="../assets/Rectangle 1.jpg" class="d-block w-100" alt="...">
+                            <img src="../assets/Rocket Launch _Isometric.svg" class="d-block w-100 h-70" alt="...">
                             <div class="carousel-caption d-md-block">
-                                <h5>Mars Travel Website</h5>
+                                <h3>Mars Travel Website</h3>
                                 <p>Some representative placeholder content for the first slide.</p>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="3000">
-                            <img src="../assets/Rectangle 1.jpg" class="d-block w-100" alt="...">
+                            <img src="../assets/Road trip_Isometric.svg" class="d-block w-100 h-70" alt="...">
                             <div class="carousel-caption d-md-block">
-                                <h5>Car Rental Website</h5>
+                                <h3>Car Rental Website</h3>
                                 <p>Some representative placeholder content for the second slide.</p>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="3000">
-                            <img src="../assets/Rectangle 1.jpg" class="d-block w-100" alt="...">
+                            <img src="../assets/Polaroid_Isometric.svg" class="d-block w-100 h-70" alt="...">
                             <div class="carousel-caption d-md-block">
-                                <h5>Photographer Website</h5>
+                                <h3>Photographer Website</h3>
                                 <p>Some representative placeholder content for the third slide.</p>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="3000">
-                            <img src="../assets/Rectangle 1.jpg" class="d-block w-100" alt="...">
+                            <img src="../assets/Data storage_Outline.svg" class="d-block w-100 h-70" alt="...">
                             <div class="carousel-caption d-md-block">
-                                <h5>Inventory System</h5>
+                                <h3>Inventory System</h3>
                                 <p>Some representative placeholder content for the fourth slide.</p>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="3000">
-                            <img src="../assets/Rectangle 1.jpg" class="d-block w-100" alt="...">
+                            <img src="../assets/Order Confirmation_Isometric.svg" class="d-block w-100 h-70" alt="...">
                             <div class="carousel-caption d-md-block">
-                                <h5>Ordering System</h5>
+                                <h3>Ordering System</h3>
                                 <p>Some representative placeholder content for the fifth slide.</p>
                             </div>
                         </div>
                     </div>
-                    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
@@ -65,7 +65,7 @@
                         data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
-                    </button> -->
+                    </button>
                 </div>
             </div>
         </div>
@@ -110,7 +110,6 @@ export default {
     margin-bottom: 30px;
 }
 .carousel-body{
-    padding-top:2rem; 
     padding-bottom: 5rem; 
     padding-left: 5rem; 
     padding-right: 5rem;
@@ -142,7 +141,7 @@ export default {
         margin-top: -60px;
 
     }
-    h5{
+    h3{
         font-size: 0.8rem;
     }
     p{
