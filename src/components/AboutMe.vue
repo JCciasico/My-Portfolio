@@ -6,10 +6,10 @@
                 <h1 class="text-2">About Me</h1>
             </div>
             <div class="row" id="about">
-                <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center about-box" data-aos="fade-right">
+                <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center about-box" data-aos="flip-left">
                     <div class="box-1"><img src="../assets/carlo.png" class="img-fluid" alt=""></div>
                 </div>
-                <div class="col-lg-6 col-md-12 des-box" data-aos="fade-left">
+                <div class="col-lg-6 col-md-12 des-box" data-aos="zoom-in">
                     <h6>My name is <span id="h6">John Carlo G. Ciasico</span>
                     </h6>
                     <p class="des-text">I'm a Web Developer. I am very passionate
