@@ -118,9 +118,9 @@ export default {
 @media(max-width:1000px){
     .carousel-body{
     padding-top:1rem; 
-    padding-bottom: 2rem; 
-    padding-left: 2rem; 
-    padding-right: 2rem;
+    padding-bottom: 1rem; 
+    padding-left: 1rem; 
+    padding-right: 1rem;
     }
 }
 @media(max-width:900px){
@@ -147,6 +147,9 @@ export default {
     }
     p{
         font-size: 0.7rem;
+    }
+    .carousel-body{
+    padding: 0;
     }
 }
 </style>
