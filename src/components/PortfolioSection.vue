@@ -111,9 +111,6 @@ export default {
     margin-bottom: 75px;
     font-size: 3rem;
 }
-.portfolio-body{
-    margin-bottom: 30px;
-}
 .carousel-body{
     padding-bottom: 5rem; 
     padding-left: 5rem; 
