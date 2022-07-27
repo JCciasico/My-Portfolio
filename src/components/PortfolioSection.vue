@@ -5,7 +5,7 @@
                 <h1 class="text-1">Portfolio</h1>
                 <h1 class="text-2">Portfolio</h1>
             </div>
-            <div style="padding-top:2rem; padding-bottom: 5rem; padding-left: 5rem; padding-right: 5rem;">
+            <div class="carousel-body">
                 <div id="carouselExampleCaptions" class="carousel slide portfolio-body" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -108,6 +108,20 @@ export default {
 }
 .portfolio-body{
     margin-bottom: 30px;
+}
+.carousel-body{
+    padding-top:2rem; 
+    padding-bottom: 5rem; 
+    padding-left: 5rem; 
+    padding-right: 5rem;
+}
+@media(max-width:1000px){
+    .carousel-body{
+    padding-top:1rem; 
+    padding-bottom: 2rem; 
+    padding-left: 2rem; 
+    padding-right: 2rem;
+    }
 }
 @media(max-width:900px){
     .text-1{
