@@ -90,6 +90,9 @@ export default {
         margin-top: -60px;
 
     }
+    .icon{
+        font-size: 3rem;
+    }
 }
 
 

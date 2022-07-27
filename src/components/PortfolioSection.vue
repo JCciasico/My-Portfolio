@@ -165,6 +165,7 @@ export default {
     }
     .carousel-body{
     padding: 0;
+    padding-bottom: 4rem;
     }
     #link{
         font-size: 0.7rem;
