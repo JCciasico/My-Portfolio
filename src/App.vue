@@ -13,6 +13,9 @@
     <div class="skills-section">
       <Skills/>
     </div>
+    <div class="portfolio-section">
+      <Portfolio/>
+    </div>
   </div>
 </template>
 
@@ -21,6 +24,7 @@ import NavBar from './components/NavBar.vue'
 import IntroSection from './components/IntroSection.vue'
 import AboutMe from './components/AboutMe.vue'
 import Skills from './components/SkillsSection.vue'
+import Portfolio from './components/PortfolioSection.vue'
 
 export default {
   name: 'App',
@@ -28,7 +32,8 @@ export default {
     NavBar,
     IntroSection,
     AboutMe,
-    Skills
+    Skills,
+    Portfolio
 }
 }
 </script>
@@ -50,5 +55,8 @@ export default {
 }
 .skills-section{
   background-color: #232323;
+}
+.portfolio-section{
+  background-color: #1b1b1b;
 }
 </style>
