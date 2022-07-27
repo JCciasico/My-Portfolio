@@ -113,10 +113,10 @@ h3{
     padding-bottom: 2rem;
 }
 .box-1{
-    padding: 4rem;
+    padding: 3rem;
 }
 .box-2{
-    padding: 4rem;
+    padding: 3rem;
 }
 .skill-item{
     font-size: 1.2rem;
