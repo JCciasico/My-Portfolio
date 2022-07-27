@@ -22,37 +22,42 @@
                     <div class="carousel-inner" style="border-radius: 20px;">
                         <div class="carousel-item active" data-bs-interval="3000">
                             <img src="../assets/Rocket Launch _Isometric.svg" class="d-block w-100 h-70" alt="...">
-                            <div class="carousel-caption d-md-block">
+                            <div class="carousel-caption d-md-block" style="margin-bottom:10px;">
                                 <h3>Mars Travel Website</h3>
-                                <p>Some representative placeholder content for the first slide.</p>
+                                <p>Let your dream come true. Enjoy Marsian trip. A Travel website created using Vue framework</p>
+                                <a href="#" id="link">PROJECT LINK</a>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="3000">
                             <img src="../assets/Road trip_Isometric.svg" class="d-block w-100 h-70" alt="...">
-                            <div class="carousel-caption d-md-block">
+                            <div class="carousel-caption d-md-block" style="margin-bottom:10px;">
                                 <h3>Car Rental Website</h3>
-                                <p>Some representative placeholder content for the second slide.</p>
+                                <p>Need a ride? choose your comfortable car. A Car rental website created using Vue framework</p>
+                                <a href="#" id="link">PROJECT LINK</a>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="3000">
                             <img src="../assets/Polaroid_Isometric.svg" class="d-block w-100 h-70" alt="...">
-                            <div class="carousel-caption d-md-block">
+                            <div class="carousel-caption d-md-block" style="margin-bottom:10px;">
                                 <h3>Photographer Website</h3>
-                                <p>Some representative placeholder content for the third slide.</p>
+                                <p>A creative portfolio for photographer. A Photographer portfolio created using Vue framework</p>
+                                <a href="#" id="link">PROJECT LINK</a>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="3000">
                             <img src="../assets/Data storage_Outline.svg" class="d-block w-100 h-70" alt="...">
-                            <div class="carousel-caption d-md-block">
+                            <div class="carousel-caption d-md-block" style="margin-bottom:10px;">
                                 <h3>Inventory System</h3>
-                                <p>Some representative placeholder content for the fourth slide.</p>
+                                <p>Inventories can be managed, but people must be led. "Ross Perot". An Inventory System created using PHP</p>
+                                <a href="#" id="link">PROJECT LINK</a>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="3000">
                             <img src="../assets/Order Confirmation_Isometric.svg" class="d-block w-100 h-70" alt="...">
-                            <div class="carousel-caption d-md-block">
+                            <div class="carousel-caption d-md-block" style="margin-bottom:10px;">
                                 <h3>Ordering System</h3>
-                                <p>Some representative placeholder content for the fifth slide.</p>
+                                <p>Don’t starve, just order. An Ordering System created using PHP</p>
+                                <a href="#" id="link">PROJECT LINK</a>
                             </div>
                         </div>
                     </div>
@@ -114,6 +119,17 @@ export default {
     padding-left: 5rem; 
     padding-right: 5rem;
 }
+#link{
+    background-color: #ff7f50;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+}
+#link:hover{
+    background-color: white;
+    color: #ff7f50;;
+}
 @media(max-width:1000px){
     .carousel-body{
     padding-top:1rem; 
@@ -142,13 +158,16 @@ export default {
 
     }
     h3{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     p{
         font-size: 0.7rem;
     }
     .carousel-body{
     padding: 0;
+    }
+    #link{
+        font-size: 0.7rem;
     }
 }
 </style>
