@@ -20,7 +20,7 @@
                             aria-label="Slide 5"></button>
                     </div>
                     <div class="carousel-inner" style="border-radius: 20px;">
-                        <div class="carousel-item active" data-bs-interval="3000">
+                        <div class="carousel-item active" data-bs-interval="4000">
                             <img src="../assets/Rocket Launch _Isometric.svg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-md-block" style="margin-bottom:10px;">
                                 <h3>Mars Travel Website</h3>
@@ -28,7 +28,7 @@
                                 <a href="#" id="link">PROJECT LINK</a>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="3000">
+                        <div class="carousel-item" data-bs-interval="4000">
                             <img src="../assets/Road trip_Isometric.svg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-md-block" style="margin-bottom:10px;">
                                 <h3>Car Rental Website</h3>
@@ -36,7 +36,7 @@
                                 <a href="#" id="link">PROJECT LINK</a>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="3000">
+                        <div class="carousel-item" data-bs-interval="4000">
                             <img src="../assets/Polaroid_Isometric.svg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-md-block" style="margin-bottom:10px;">
                                 <h3>Photographer Website</h3>
@@ -44,7 +44,7 @@
                                 <a href="#" id="link">PROJECT LINK</a>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="3000">
+                        <div class="carousel-item" data-bs-interval="4000">
                             <img src="../assets/Data storage_Outline.svg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-md-block" style="margin-bottom:10px;">
                                 <h3>Inventory System</h3>
@@ -52,7 +52,7 @@
                                 <a href="#" id="link">PROJECT LINK</a>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="3000">
+                        <div class="carousel-item" data-bs-interval="4000">
                             <img src="../assets/Order Confirmation_Isometric.svg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-md-block" style="margin-bottom:10px;">
                                 <h3>Ordering System</h3>
