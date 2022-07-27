@@ -4,36 +4,7 @@
             <div class=" text-center" style="padding-top:2rem">
                 <h1 class="text-2">Contact Me</h1>
             </div>
-            <!-- <div class="row contact-body">
-            <div class="col-lg-4 col-md-4 col-sm-12 d-flex box-1">
-                <div class="col-lg-3 col-md-3 col-sm-4 text-center d-flex align-items-center justify-content-end" style="padding: 0 1rem">
-                    <i class="fa-solid fa-mobile-screen icon"></i>
-                </div>
-                <div class="col-lg-9 col-md col-sm-5 box-text">
-                    <span style="font-weight: bold;">Contact me on</span><br>
-                    <span>(+63)9989077822</span>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 d-flex box-1">
-                <div class="col-lg-3 col-md-3 col-sm-4 text-center d-flex align-items-center justify-content-end" style="padding: 0 1rem">
-                    <i class="fa-solid fa-envelope icon"></i>
-                </div>
-                <div class="col-lg-9 col-md col-sm-5 box-text">
-                    <span style="font-weight: bold;">Email me at</span><br>
-                    <span>carlociasico01@gmail.com</span>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 d-flex box-1">
-                <div class="col-lg-3 col-md-3 col-sm-4 text-center d-flex align-items-center justify-content-end" style="padding: 0 1rem">
-                    <i class="fa-solid fa-map-location-dot icon"></i>
-                </div>
-                <div class="col-lg-9 col-md col-sm-5 box-text">
-                    <span style="font-weight: bold;">Visit me</span><br>
-                    <span>Cavite, Philippines</span>
-                </div>
-            </div>
-        </div> -->
-            <div class="row contact-body" id="services">
+            <div class="row contact-body" id="contact">
                 <div class="col-lg-4 col-md-6 col-sm-12 box-1">
                     <div class="text-center">
                         <i class="fa-solid fa-mobile-screen icon"></i><br>
