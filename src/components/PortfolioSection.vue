@@ -21,7 +21,7 @@
                     </div>
                     <div class="carousel-inner" style="border-radius: 20px;">
                         <div class="carousel-item active" data-bs-interval="3000">
-                            <img src="../assets/Rocket Launch _Isometric.svg" class="d-block w-100 h-70" alt="...">
+                            <img src="../assets/Rocket Launch _Isometric.svg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-md-block" style="margin-bottom:10px;">
                                 <h3>Mars Travel Website</h3>
                                 <p>Let your dream come true. Enjoy Marsian trip. A Travel website created using Vue framework</p>
@@ -29,7 +29,7 @@
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="3000">
-                            <img src="../assets/Road trip_Isometric.svg" class="d-block w-100 h-70" alt="...">
+                            <img src="../assets/Road trip_Isometric.svg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-md-block" style="margin-bottom:10px;">
                                 <h3>Car Rental Website</h3>
                                 <p>Need a ride? choose your comfortable car. A Car rental website created using Vue framework</p>
@@ -37,7 +37,7 @@
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="3000">
-                            <img src="../assets/Polaroid_Isometric.svg" class="d-block w-100 h-70" alt="...">
+                            <img src="../assets/Polaroid_Isometric.svg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-md-block" style="margin-bottom:10px;">
                                 <h3>Photographer Website</h3>
                                 <p>A creative portfolio for photographer. A Photographer portfolio created using Vue framework</p>
@@ -45,7 +45,7 @@
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="3000">
-                            <img src="../assets/Data storage_Outline.svg" class="d-block w-100 h-70" alt="...">
+                            <img src="../assets/Data storage_Outline.svg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-md-block" style="margin-bottom:10px;">
                                 <h3>Inventory System</h3>
                                 <p>Inventories can be managed, but people must be led. "Ross Perot". An Inventory System created using PHP</p>
@@ -53,7 +53,7 @@
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="3000">
-                            <img src="../assets/Order Confirmation_Isometric.svg" class="d-block w-100 h-70" alt="...">
+                            <img src="../assets/Order Confirmation_Isometric.svg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-md-block" style="margin-bottom:10px;">
                                 <h3>Ordering System</h3>
                                 <p>Don’t starve, just order. An Ordering System created using PHP</p>
