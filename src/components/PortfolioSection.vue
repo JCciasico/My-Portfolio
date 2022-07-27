@@ -24,7 +24,7 @@
                             <img src="../assets/Rocket Launch _Isometric.svg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-md-block" style="margin-bottom:10px;">
                                 <h3>Mars Travel Website</h3>
-                                <p>Let your dream come true. Enjoy Marsian trip. A Travel website created using Vue framework</p>
+                                <p>Let your dream come true. Enjoy Marsian trip. A Travel website created using Vue framework.</p>
                                 <a href="#" id="link">PROJECT LINK</a>
                             </div>
                         </div>
@@ -32,7 +32,7 @@
                             <img src="../assets/Road trip_Isometric.svg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-md-block" style="margin-bottom:10px;">
                                 <h3>Car Rental Website</h3>
-                                <p>Need a ride? choose your comfortable car. A Car rental website created using Vue framework</p>
+                                <p>Need a ride? choose your comfortable car. A Car rental website created using Vue framework.</p>
                                 <a href="#" id="link">PROJECT LINK</a>
                             </div>
                         </div>
@@ -40,7 +40,7 @@
                             <img src="../assets/Polaroid_Isometric.svg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-md-block" style="margin-bottom:10px;">
                                 <h3>Photographer Website</h3>
-                                <p>A creative portfolio for photographer. A Photographer portfolio created using Vue framework</p>
+                                <p>A creative portfolio for photographer. A Photographer portfolio created using Vue framework.</p>
                                 <a href="#" id="link">PROJECT LINK</a>
                             </div>
                         </div>
@@ -48,7 +48,7 @@
                             <img src="../assets/Data storage_Outline.svg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-md-block" style="margin-bottom:10px;">
                                 <h3>Inventory System</h3>
-                                <p>Inventories can be managed, but people must be led. "Ross Perot". An Inventory System created using PHP</p>
+                                <p>Inventories can be managed, but people must be led. "Ross Perot". An Inventory System created using PHP.</p>
                                 <a href="#" id="link">PROJECT LINK</a>
                             </div>
                         </div>
@@ -56,7 +56,7 @@
                             <img src="../assets/Order Confirmation_Isometric.svg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-md-block" style="margin-bottom:10px;">
                                 <h3>Ordering System</h3>
-                                <p>Don’t starve, just order. An Ordering System created using PHP</p>
+                                <p>Don’t starve, just order. An Ordering System created using PHP.</p>
                                 <a href="#" id="link">PROJECT LINK</a>
                             </div>
                         </div>
