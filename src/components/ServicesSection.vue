@@ -5,7 +5,8 @@
                 <h1 class="text-1">Services</h1>
                 <h1 class="text-2">Services</h1>
             </div>
-                <div class="row services-body" data-aos="flip-up">
+            <div data-aos="flip-up">
+                <div class="row services-body">
                     <div class="col-lg-2 col-md-6 col-sm-12 box-1">
                         <div class="text-center">
                             <i class="fa-solid fa-laptop-code icon"></i><br>
@@ -31,6 +32,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
     </section>
 </template>
