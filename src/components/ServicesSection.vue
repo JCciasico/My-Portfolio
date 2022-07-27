@@ -1,11 +1,11 @@
 <template>
     <section>
-        <div class="container" style="padding-bottom: 2.5rem;">
+        <div class="container" id="services" style="padding-bottom: 2.5rem;">
             <div class="container-fluid text-center" style="padding-top:2rem">
                 <h1 class="text-1">Services</h1>
                 <h1 class="text-2">Services</h1>
             </div>
-                <div class="row services-body" id="services" data-aos="fade-in">
+                <div class="row services-body" data-aos="fade-in">
                     <div class="col-lg-2 col-md-6 col-sm-12 box-1">
                         <div class="text-center">
                             <i class="fa-solid fa-laptop-code icon"></i><br>

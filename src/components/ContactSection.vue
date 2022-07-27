@@ -1,10 +1,10 @@
 <template>
     <section>
-        <div class="container">
+        <div class="container" id="contact">
             <div class=" text-center" style="padding-top:2rem">
                 <h1 class="text-2">Contact Me</h1>
             </div>
-            <div class="row contact-body" id="contact">
+            <div class="row contact-body">
                 <div class="col-lg-4 col-md-6 col-sm-12 box-1">
                     <div class="text-center">
                         <i class="fa-solid fa-mobile-screen icon"></i><br>

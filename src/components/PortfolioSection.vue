@@ -1,6 +1,6 @@
 <template>
     <section>
-        <div class="container p-3">
+        <div class="container p-3" id="portfolio">
             <div class="container-fluid text-center" style="padding-top:2rem">
                 <h1 class="text-1">Portfolio</h1>
                 <h1 class="text-2">Portfolio</h1>

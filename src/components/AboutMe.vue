@@ -1,11 +1,11 @@
 <template>
     <section>
-        <div class="container custom-about-des">
+        <div class="container custom-about-des" id="about">
             <div class="container-fluid text-center">
                 <h1 class="text-1">About</h1>
                 <h1 class="text-2">About Me</h1>
             </div>
-            <div class="row" id="about">
+            <div class="row">
                 <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-start about-box" data-aos="flip-left">
                     <div class="box-1"><img src="../assets/carlo.png" class="img-fluid" alt=""></div>
                 </div>

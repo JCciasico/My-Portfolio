@@ -19,7 +19,7 @@
                         <a href="#skills" class="nav-link text" aria-current="page">SKILLS</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#carouselExampleCaptions" class="nav-link text" aria-current="page">PORTFOLIO</a>
+                        <a href="#portfolio" class="nav-link text" aria-current="page">PORTFOLIO</a>
                     </li>
                     <li class="nav-item">
                         <a href="#services" class="nav-link text" aria-current="page">SERVICES</a>
