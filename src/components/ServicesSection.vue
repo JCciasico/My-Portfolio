@@ -20,7 +20,7 @@
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-6 col-sm-12 box-1">
-                        <div class=" ext-center">
+                        <div class="text-center">
                             <i class="fa-solid fa-list-check icon"></i><br>
                             <span>Quality Testing</span>
                         </div>
