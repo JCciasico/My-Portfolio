@@ -22,7 +22,7 @@
                         <a href="#carouselExampleCaptions" class="nav-link text" aria-current="page">PORTFOLIO</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link text" aria-current="page">SERVICES</a>
+                        <a href="#services" class="nav-link text" aria-current="page">SERVICES</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link text" aria-current="page">CONTACT</a>

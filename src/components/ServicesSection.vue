@@ -5,7 +5,7 @@
                 <h1 class="text-1">Services</h1>
                 <h1 class="text-2">Services</h1>
             </div>
-                <div class="row services-body" data-aos="fade">
+                <div class="row services-body" id="services" data-aos="fade">
                     <div class="col-lg-2 col-md-6 col-sm-12 box-1">
                         <div class="text-center">
                             <i class="fa-solid fa-laptop-code icon"></i><br>
