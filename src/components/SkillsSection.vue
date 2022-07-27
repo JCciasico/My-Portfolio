@@ -166,5 +166,30 @@ h3{
     padding: 0 2rem;
     }
 }
+@media(max-width:900px){
+    .text-1{
+        font-size: 4.5rem;
+    }
+    .text-2{
+        font-size: 2rem;
+        margin-top: -65px;
+
+    }
+}
+@media(max-width:500px){
+    .text-1{
+        font-size: 4rem;
+    }
+    .text-2{
+        font-size: 2rem;
+        margin-top: -60px;
+
+    }
+    h3{
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+}
 
 </style>
