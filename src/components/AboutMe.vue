@@ -116,7 +116,7 @@ h6{
 .icon-box{
     margin-top: 60px;
     text-align: center;
-    padding-right: 25px;
+    padding-right: 30px;
 }
 .icon{
     font-size: 2em;
