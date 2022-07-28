@@ -47,16 +47,16 @@
     
                     <div class="icon-box">
                         <ul class="wrapper">
-                            <li class="icon facebook">
+                            <li class="icon facebook" style="font-size:1.5rem">
                                 <span class="tooltip">Facebook</span>
                                 <a href="https://www.facebook.com/johncarlociasico" target="_blank"><i class="fab fa-facebook-f" style="color:black"></i></a>
                             </li>
                            
-                            <li class="icon github">
+                            <li class="icon github" style="font-size:1.5rem">
                                 <span class="tooltip">Github</span>
                                 <a href="https://github.com/JCciasico" target="_blank"><i class="fab fa-github" style="color:black"></i></a>
                             </li>
-                            <li class="icon linkedin">
+                            <li class="icon linkedin" style="font-size:1.5rem">
                                 <span class="tooltip">Linkedin</span>
                                 <a href="https://www.linkedin.com/in/john-carlo-ciasico-86a7b0238/" target="_blank"><i class="fab fa-linkedin" style="color:black"></i></a>
                             </li>
@@ -119,7 +119,7 @@ h6{
     padding-right: 30px;
 }
 .icon{
-    font-size: 2em;
+    font-size: 3em;
     color: white;
 }
 .icon:hover{
