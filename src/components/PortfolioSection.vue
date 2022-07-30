@@ -33,7 +33,7 @@
                             <div class="carousel-caption d-md-block" style="margin-bottom:10px;">
                                 <h3>Car Rental Website</h3>
                                 <p>Need a ride? choose your comfortable car. A Car rental website created using Vue framework.</p>
-                                <a href="#" id="link">Project Link</a>
+                                <a href="https://car-rental-jcciasico.vercel.app/" target="_blank" id="link">Project Link</a>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="4000">
