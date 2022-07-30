@@ -242,5 +242,11 @@ h6{
         margin-top: -60px;
 
     }
+    .icon-box{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
 }
 </style>
