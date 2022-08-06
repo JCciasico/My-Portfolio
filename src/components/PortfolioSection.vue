@@ -25,7 +25,7 @@
                             <div class="carousel-caption d-md-block" style="margin-bottom:10px;">
                                 <h3>Mars Travel Website</h3>
                                 <p>Let your dream come true. Enjoy Marsian trip. A Travel website created using Vue framework.</p>
-                                <a href="#" id="link">Project Link</a>
+                                <a href="#" id="link">Visit</a>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="4000">
@@ -33,7 +33,7 @@
                             <div class="carousel-caption d-md-block" style="margin-bottom:10px;">
                                 <h3>Car Rental Website</h3>
                                 <p>Need a ride? choose your comfortable car. A Car rental website created using Vue framework.</p>
-                                <a href="https://car-rental-jcciasico.vercel.app/" target="_blank" id="link">Project Link</a>
+                                <a href="https://car-rental-jcciasico.vercel.app/" target="_blank" id="link">Visit</a>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="4000">
@@ -41,7 +41,7 @@
                             <div class="carousel-caption d-md-block" style="margin-bottom:10px;">
                                 <h3>Photographer Website</h3>
                                 <p>A creative portfolio for photographer. A Photographer portfolio created using Vue framework.</p>
-                                <a href="#" id="link">Project Link</a>
+                                <a href="https://photographer-website-design.vercel.app/" target="_blank" id="link">Visit</a>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="4000">
@@ -49,7 +49,7 @@
                             <div class="carousel-caption d-md-block" style="margin-bottom:10px;">
                                 <h3>Inventory System</h3>
                                 <p>An Inventory System created using PHP.</p>
-                                <a href="#" id="link">Project Link</a>
+                                <a href="https://github.com/JCciasico/Inventory-System-Project-PHP" target="_blank" id="link">Visit</a>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="4000">
@@ -57,7 +57,7 @@
                             <div class="carousel-caption d-md-block" style="margin-bottom:10px;">
                                 <h3>Ordering System</h3>
                                 <p>Don’t starve, just order. An Ordering System created using PHP.</p>
-                                <a href="#" id="link">Project Link</a>
+                                <a href="https://github.com/JCciasico/Ordering-System---PHP" target="_blank" id="link">Visit</a>
                             </div>
                         </div>
                     </div>
@@ -118,7 +118,7 @@ export default {
 }
 #link{
     background-color: #ff7f50;
-    padding: 5px 10px;
+    padding: 5px 15px;
     text-decoration: none;
     border-radius: 10px;
     color: white;
