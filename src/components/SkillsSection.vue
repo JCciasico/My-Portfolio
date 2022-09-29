@@ -9,7 +9,7 @@
             <div class="col-lg-6 col-md-6 col-sm-12 box-1">
                 <div class="col p-3">
                     <div class="d-flex justify-content-between">
-                        <span class="skill-item">Vue Js</span>
+                        <span class="skill-item">Vue Js / React</span>
                     </div>
                     <div class="range">
                         <div class="vue"></div>
@@ -43,7 +43,7 @@
             <div class="col-lg-6 col-md-6 col-sm-12 box-2">
                 <div class="col p-3">
                     <div class="d-flex justify-content-between">
-                        <span class="skill-item">Bootstrap</span>
+                        <span class="skill-item">Java</span>
                     </div>
                     <div class="range">
                         <div class="boot"></div>
@@ -51,7 +51,7 @@
                 </div>
                 <div class="col p-3">
                     <div class="d-flex justify-content-between">
-                        <span class="skill-item">Axios</span>
+                        <span class="skill-item">Python</span>
                     </div>
                     <div class="range">
                         <div class="axios"></div>
@@ -67,7 +67,7 @@
                 </div>
                 <div class="col p-3">
                     <div class="d-flex justify-content-between">
-                        <span class="skill-item">MySQL</span>
+                        <span class="skill-item">SQL</span>
                     </div>
                     <div class="range">
                         <div class="sql"></div>
