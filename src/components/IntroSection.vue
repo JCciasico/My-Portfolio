@@ -5,8 +5,8 @@
             <div class="intro-box-1">
                 <div>
                     <h3 >I'm a</h3>
-                    <span data-text="WEB_DEVELOPER" class="text">
-                        WEB_DEVELOPER
+                    <span data-text="DEVELOPER" class="text">
+                        DEVELOPER
                     </span><br>
                     <!-- <h1 class="text-1">
                         DESIGNER <span class="text-dot">.</span>
@@ -16,11 +16,11 @@
                         <li class="text">WEB DEVELOPER</li>
                         <li class="text">& DESIGNER</li>
                     </ul> -->
-                    <button type="button" class="custom-button">Get in touch
+                    <!-- <button type="button" class="custom-button">Get in touch
                         <span>
                             <i class="fas fa-arrow-right"></i>
                         </span>
-                    </button>
+                    </button> -->
                 </div>
             </div>
             <!-- <div class="col-lg-6 col-md-12 text-center intro-box-2">
@@ -41,7 +41,7 @@ export default {
 
 .intro-box-1{
     padding-top: 11rem;
-    padding-bottom: 5rem;
+    padding-bottom: 8rem;
 }
 
 h3{
@@ -50,7 +50,7 @@ h3{
     font-weight: bold;
 }
 .text{
-    font-size: 5rem;
+    font-size: 7rem;
     color: transparent;
     font-weight: bold;
     -webkit-text-stroke: 3px #5a5a5a;
@@ -131,7 +131,7 @@ h3{
     }
 @media(max-width:600px){
     .text{
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: transparent;
     font-weight: bold;
     -webkit-text-stroke: 2px #383d52;
