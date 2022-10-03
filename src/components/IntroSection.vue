@@ -16,11 +16,7 @@
                         <li class="text">WEB DEVELOPER</li>
                         <li class="text">& DESIGNER</li>
                     </ul> -->
-                    <!-- <button type="button" class="custom-button">Get in touch
-                        <span>
-                            <i class="fas fa-arrow-right"></i>
-                        </span>
-                    </button> -->
+                    <!-- <a href="../assets/" class="custom-button" download="JC_Ciasico_CV.pdf">Download CV</a> -->
                 </div>
             </div>
             <!-- <div class="col-lg-6 col-md-12 text-center intro-box-2">
@@ -95,13 +91,15 @@ h3{
     line-height: 80px;
 }
 .custom-button{
-    padding: 12px;
+    padding: 12px 15px;
     border-radius: 25px;
     width: 170px;
     margin-top: 25px;
     background-color: #ff7f50;
     color: white;
     border: none;
+    font-weight: bold;
+    text-decoration: none;
 }
 .custom-button:hover{
     background-color: white;

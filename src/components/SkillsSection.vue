@@ -9,7 +9,7 @@
             <div class="col-lg-6 col-md-6 col-sm-12 box-1">
                 <div class="col p-3">
                     <div class="d-flex justify-content-between">
-                        <span class="skill-item">Vue Js / React</span>
+                        <span class="skill-item">Vue Js</span>
                     </div>
                     <div class="range">
                         <div class="vue"></div>
@@ -43,7 +43,7 @@
             <div class="col-lg-6 col-md-6 col-sm-12 box-2">
                 <div class="col p-3">
                     <div class="d-flex justify-content-between">
-                        <span class="skill-item">Java</span>
+                        <span class="skill-item">Python</span>
                     </div>
                     <div class="range">
                         <div class="boot"></div>
@@ -51,7 +51,7 @@
                 </div>
                 <div class="col p-3">
                     <div class="d-flex justify-content-between">
-                        <span class="skill-item">Python</span>
+                        <span class="skill-item">Java</span>
                     </div>
                     <div class="range">
                         <div class="axios"></div>
@@ -143,7 +143,7 @@ h3{
 .vue{width: 80%;background-color: #ff7f50;height: 100%;text-align: right;}
 .html{width: 90%;background-color: #ff7f50;height: 100%;text-align: right;}
 .css{width: 85%;background-color: #ff7f50;height: 100%;text-align: right;}
-.js{width: 65%;background-color: #ff7f50;height: 100%;text-align: right;}
+.js{width: 75%;background-color: #ff7f50;height: 100%;text-align: right;}
 .boot{width: 80%;background-color: #ff7f50;height: 100%;text-align: right;}
 .axios{width: 70%;background-color: #ff7f50;height: 100%;text-align: right;}
 .php{width: 75%;background-color: #ff7f50;height: 100%;text-align: right;}
