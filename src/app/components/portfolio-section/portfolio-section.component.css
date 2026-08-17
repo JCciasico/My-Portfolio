@@ -1,0 +1,209 @@
+.section-head{
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+    margin-bottom: 2.8rem;
+}
+.section-num{
+    font-family: var(--font-mono);
+    color: var(--accent);
+    font-size: 0.9rem;
+    border: 1px solid var(--border);
+    padding: 5px 11px;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+.section-title{
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    white-space: nowrap;
+}
+.section-line{
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+}
+.project-grid{
+    padding-bottom: 3rem;
+}
+.other-projects-head{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0.5rem 0 1.6rem;
+}
+.other-projects-label{
+    font-family: var(--font-mono);
+    color: var(--text-1);
+    font-size: 0.85rem;
+    white-space: nowrap;
+}
+.project-link{
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 1rem;
+    color: var(--accent);
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.project-link:hover{
+    text-decoration: underline;
+}
+.project-link i{
+    font-size: 0.7rem;
+}
+.project-col{
+    padding: 1rem;
+}
+.project-card{
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+}
+.project-card:hover{
+    border-color: var(--accent);
+    transform: translateY(-4px);
+}
+.project-media{
+    position: relative;
+    background:
+        linear-gradient(rgba(255,255,255,0.02), rgba(255,255,255,0.02)),
+        var(--bg-0);
+    height: 280px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project-media img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.carousel-item img{
+    width: 100%;
+    height: 280px;
+    object-fit: contain;
+}
+.icon-fallback{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(255,61,90,0.15), rgba(108,92,231,0.15));
+}
+.icon-fallback i{
+    font-size: 4.5rem;
+    color: var(--accent);
+}
+.project-badge{
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    background: rgba(11,13,18,0.8);
+    border: 1px solid var(--border);
+    color: var(--text-0);
+    font-size: 0.72rem;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+.project-body{
+    padding: 1.6rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.project-body h4{
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+}
+.project-subtitle{
+    color: var(--accent);
+    font-size: 0.85rem;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.9rem;
+}
+.project-desc{
+    color: var(--text-1);
+    font-size: 0.92rem;
+    line-height: 1.65;
+    margin-bottom: 1.2rem;
+    flex: 1;
+}
+.tech-tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.tech-tag{
+    background: rgba(255,255,255,0.05);
+    border: 1px solid var(--border);
+    color: var(--text-1);
+    padding: 0.3rem 0.75rem;
+    border-radius: 16px;
+    font-size: 0.75rem;
+}
+.carousel-control-prev, .carousel-control-next{
+    width: 12%;
+    opacity: 0.55;
+    transition: opacity 0.2s ease;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    width: 1.6rem;
+    height: 1.6rem;
+    background-color: rgba(11,13,18,0.55);
+    border-radius: 50%;
+    padding: 6px;
+    background-size: 55%;
+}
+.project-media:hover .carousel-control-prev,
+.project-media:hover .carousel-control-next{
+    opacity: 1;
+}
+.carousel-indicators{
+    position: absolute;
+    bottom: 10px;
+    margin: 0;
+    z-index: 2;
+}
+.carousel-indicators button{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.4);
+    border: none;
+    opacity: 1;
+    margin: 0 4px;
+    text-indent: -9999px;
+}
+.carousel-indicators button.active{
+    background-color: var(--accent);
+    width: 18px;
+    border-radius: 4px;
+}
+
+@media(max-width:500px){
+    .section-title{
+        font-size: 1.6rem;
+    }
+    .project-media{
+        height: 220px;
+    }
+    .carousel-item img{
+        height: 220px;
+    }
+}

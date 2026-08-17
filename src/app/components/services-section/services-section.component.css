@@ -1,0 +1,77 @@
+.section-head{
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+    margin-bottom: 2.8rem;
+}
+.section-num{
+    font-family: var(--font-mono);
+    color: var(--accent);
+    font-size: 0.9rem;
+    border: 1px solid var(--border);
+    padding: 5px 11px;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+.section-title{
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    white-space: nowrap;
+}
+.section-line{
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+}
+.icon{
+    color: var(--accent);
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+}
+.box-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+.box-1 > div{
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 2rem 1.5rem;
+    height: 100%;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+}
+.box-1 > div:hover{
+    border-color: var(--accent);
+    transform: translateY(-4px);
+}
+.service-title{
+    display: block;
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: white;
+    margin-bottom: 0.6rem;
+}
+.service-desc{
+    color: var(--text-1);
+    font-size: 0.88rem;
+    line-height: 1.6;
+    margin: 0;
+}
+.services-body{
+    display: flex;
+    justify-content: center;
+}
+@media(max-width:500px){
+    .section-title{
+        font-size: 1.6rem;
+    }
+    .icon{
+        font-size: 2.2rem;
+    }
+}

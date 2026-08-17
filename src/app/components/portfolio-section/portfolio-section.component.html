@@ -1,0 +1,63 @@
+<section>
+    <div class="container p-3" id="portfolio">
+        <div class="section-head">
+            <span class="section-num">03</span>
+            <h2 class="section-title">Projects</h2>
+            <span class="section-line"></span>
+        </div>
+        <div class="row project-grid" data-aos="fade-up">
+            <div class="col-lg-6 col-md-12 project-col" *ngFor="let project of projects">
+                <ng-container *ngTemplateOutlet="cardTpl; context: { project: project }"></ng-container>
+            </div>
+        </div>
+
+        <div class="other-projects-head">
+            <span class="other-projects-label">More Projects</span>
+            <span class="section-line"></span>
+        </div>
+        <div class="row project-grid other-grid" data-aos="fade-up">
+            <div class="col-lg-6 col-md-12 project-col" *ngFor="let project of otherProjects">
+                <ng-container *ngTemplateOutlet="cardTpl; context: { project: project }"></ng-container>
+            </div>
+        </div>
+    </div>
+</section>
+
+<ng-template #cardTpl let-project="project">
+    <div class="project-card">
+        <div class="project-media">
+            <div *ngIf="project.images.length > 1" [id]="'carousel-' + project.id" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item" [class.active]="i === 0" *ngFor="let img of project.images; let i = index">
+                        <img [src]="img" class="d-block w-100" alt="{{project.title}} screenshot">
+                    </div>
+                </div>
+                <div class="carousel-indicators">
+                    <button type="button" *ngFor="let img of project.images; let i = index" [attr.data-bs-target]="'#carousel-' + project.id" [attr.data-bs-slide-to]="i" [class.active]="i === 0" [attr.aria-current]="i === 0 ? 'true' : null" [attr.aria-label]="'Slide ' + (i + 1)"></button>
+                </div>
+                <button class="carousel-control-prev" type="button" [attr.data-bs-target]="'#carousel-' + project.id" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" [attr.data-bs-target]="'#carousel-' + project.id" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+            <img *ngIf="project.images.length === 1" [src]="project.images[0]" class="d-block w-100" alt="{{project.title}} screenshot">
+            <div *ngIf="project.images.length === 0" class="icon-fallback">
+                <i [class]="project.icon"></i>
+            </div>
+            <span class="project-badge">{{project.badge}}</span>
+        </div>
+        <div class="project-body">
+            <h4>{{project.title}}</h4>
+            <span class="project-subtitle">{{project.subtitle}}</span>
+            <p class="project-desc">{{project.description}}</p>
+            <div class="tech-tags">
+                <span class="tech-tag" *ngFor="let tech of project.stack">{{tech}}</span>
+            </div>
+            <a *ngIf="project.link" [href]="project.link" target="_blank" class="project-link">
+                {{project.linkLabel}} <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+        </div>
+    </div>
+</ng-template>

@@ -1,0 +1,101 @@
+.section-head{
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+    margin-bottom: 2.8rem;
+}
+.section-num{
+    font-family: var(--font-mono);
+    color: var(--accent);
+    font-size: 0.9rem;
+    border: 1px solid var(--border);
+    padding: 5px 11px;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+.section-title{
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    white-space: nowrap;
+}
+.section-line{
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+}
+h3{
+    color: white;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.footer-details{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.skill-body{
+    margin-bottom: 30px;
+}
+.skill-group{
+    padding: 0.8rem;
+}
+.skill-card{
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 1.8rem;
+    height: 100%;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+}
+.skill-card:hover{
+    border-color: var(--accent);
+    transform: translateY(-4px);
+}
+.skill-card-header{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 1.1rem;
+}
+.skill-card-header i{
+    font-size: 1.4rem;
+    color: var(--accent);
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    background: rgba(255,61,90,0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill-card-header h5{
+    color: white;
+    font-weight: 600;
+    margin: 0;
+    font-size: 1.1rem;
+}
+.badge-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+}
+.skill-badge{
+    background: rgba(255,255,255,0.05);
+    border: 1px solid var(--border);
+    color: var(--text-1);
+    padding: 0.4rem 0.9rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+@media(max-width:500px){
+    .section-title{
+        font-size: 1.6rem;
+    }
+    h3{
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+}

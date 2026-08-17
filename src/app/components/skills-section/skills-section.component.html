@@ -1,0 +1,25 @@
+<section>
+<div class="container p-3" id="skills">
+    <div class="section-head">
+        <span class="section-num">02</span>
+        <h2 class="section-title">Skills</h2>
+        <span class="section-line"></span>
+    </div>
+    <div class="row skill-body" data-aos="zoom-in">
+        <div class="col-lg-6 col-md-6 col-sm-12 skill-group" *ngFor="let group of skillGroups">
+            <div class="skill-card">
+                <div class="skill-card-header">
+                    <i class="{{group.icon}}"></i>
+                    <h5>{{group.title}}</h5>
+                </div>
+                <div class="badge-row">
+                    <span class="skill-badge" *ngFor="let skill of group.items">{{skill}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center footer-details">
+        <h3>I Am Available For Freelance !</h3>
+    </div>
+</div>
+</section>
