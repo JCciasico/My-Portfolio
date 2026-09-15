@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.home-section{
+  background:
+    radial-gradient(circle at 12% 15%, rgba(255,61,90,0.1) 0%, transparent 40%),
+    radial-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+    var(--bg-1);
+  background-size: auto, 26px 26px, auto;
+}
+.about-section{
+  background-color: var(--bg-1);
+}
+.skills-section{
+  background-color: var(--bg-2);
+}
+.portfolio-section{
+  background-color: var(--bg-1);
+}
+.services-section{
+  background-color: var(--bg-2);
+}
+.footer{
+  background: var(--accent-grad);
+}
