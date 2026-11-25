@@ -1,0 +1,78 @@
+/* You can add global styles to this file, and also import other style files */
+@import "bootstrap/dist/css/bootstrap.css";
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+/* Manual scroll-reveal animations (see RevealDirective), replacing AOS. */
+[data-aos] {
+  opacity: 0;
+  transition: opacity 0.7s ease, transform 0.7s ease;
+  will-change: opacity, transform;
+}
+[data-aos="fade-up"] { transform: translate3d(0, 40px, 0); }
+[data-aos="fade-down"] { transform: translate3d(0, -40px, 0); }
+[data-aos="fade-left"] { transform: translate3d(60px, 0, 0); }
+[data-aos="fade-right"] { transform: translate3d(-60px, 0, 0); }
+[data-aos="fade"] { transform: none; }
+[data-aos="zoom-in"] { transform: scale(0.92); }
+[data-aos="flip-left"] { transform: perspective(1200px) rotateY(-18deg); }
+
+[data-aos].aos-animate {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-aos] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
+:root {
+  --bg-0: #0b0d12;
+  --bg-1: #12151c;
+  --bg-2: #171a23;
+  --surface: #1b1f2a;
+  --border: rgba(255,255,255,0.08);
+  --text-0: #f3f4f7;
+  --text-1: #b3b8c5;
+  --text-2: #767c8d;
+  --accent: #ff3d5a;
+  --accent-2: #6c5ce7;
+  --accent-grad: linear-gradient(135deg, #ff3d5a 0%, #ff7849 100%);
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-1);
+  color: var(--text-0);
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+::selection {
+  background: var(--accent);
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-0);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 10px;
+}

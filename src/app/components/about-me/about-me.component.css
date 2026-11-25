@@ -1,0 +1,194 @@
+.custom-about-des{
+    padding: 2rem;
+}
+.section-head{
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+    margin-bottom: 3.5rem;
+}
+.section-num{
+    font-family: var(--font-mono);
+    color: var(--accent);
+    font-size: 0.9rem;
+    border: 1px solid var(--border);
+    padding: 5px 11px;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+.section-title{
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    white-space: nowrap;
+}
+.section-line{
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+}
+.box-1 {
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    box-shadow: rgba(255,61,90, 0.35) 8px 8px, rgba(255,61,90, 0.2) 16px 16px, rgba(255,61,90, 0.08) 24px 24px;
+    background: var(--surface);
+}
+.box-1 img {
+    border-radius: 20px;
+}
+.about-box{
+    padding: 2.5rem;
+}
+.des-box{
+    padding: 2rem;
+    color: white;
+}
+h6{
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+#h6{
+    color: var(--accent);
+}
+.des-text{
+    font-size: 1rem;
+    color: var(--text-1);
+    line-height: 1.7;
+}
+.icon-box{
+    margin-top: 60px;
+    text-align: center;
+    padding-right: 30px;
+}
+.icon{
+    font-size: 3em;
+    color: white;
+}
+.icon:hover{
+    color: #ff7f50;
+}
+
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+}
+
+.wrapper .icon {
+  position: relative;
+  background: #ffffff;
+  border-radius: 50%;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #1877F2;
+  color: #ffffff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background: #1DA1F2;
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #E4405F;
+  color: #ffffff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background: #333333;
+  color: #ffffff;
+}
+
+.wrapper .linkedin:hover,
+.wrapper .linkedin:hover .tooltip,
+.wrapper .linkedin:hover .tooltip::before {
+  background: #1877F2;
+  color: #ffffff;
+}
+
+
+@media(max-width:900px){
+    .text-1{
+        font-size: 4.5rem;
+    }
+    .text-2{
+        font-size: 2rem;
+        margin-top: -65px;
+
+    }
+}
+@media(max-width:500px){
+    .text-1{
+        font-size: 4rem;
+    }
+    .text-2{
+        font-size: 2rem;
+        margin-top: -60px;
+
+    }
+    .icon-box{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+}
